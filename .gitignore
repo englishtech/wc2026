@@ -1,0 +1,4 @@
+.env
+*.pyc
+.venv/
+wc2026/__pycache__/
