@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split, cross_val_score, Stratifie
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
+import joblib
+from pathlib import Path
 
 FEATURES_LIST = [
         "home_elo_rating", 
@@ -13,6 +15,7 @@ FEATURES_LIST = [
         # "home_market_value", 
         # "away_market_value",
 ]
+MODEL_NAME = "wc2026_LogReg"
 
 def filter_qualifiers(df: pd.DataFrame) -> pd.DataFrame:
     """Оставляет только матчи квалификации ЧМ (убирает товарняки, кубки и т.д.)."""
@@ -103,59 +106,63 @@ def build_xy(df):
 
 # ===== Обучение модели =====
 # @timer_decorator
-def train_model(X: pd.DataFrame, y: pd.Series) -> LogisticRegression:
+def train_model(X: pd.DataFrame, y: pd.Series, test_size=0.0) -> LogisticRegression:
     """Разделяет данные, масштабирует, обучает модель и выводит метрики."""
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-    print(f"Разделение: train={len(X_train)}, test={len(X_test)}")
-
-
     scaler = StandardScaler()
-    X_train_sc, X_test_sc = scaler.fit_transform(X_train), scaler.transform(X_test)
+    if test_size > 0:
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42, stratify=y)
+        print(f"Разделение: train = {len(X_train)}, test = {len(X_test)}")
+        model = LogisticRegression(max_iter=1000, random_state=42, class_weight='balanced')
+        model.fit(scaler.fit_transform(X_train), y_train)
+        
+        print(f"✅ Точность на тесте: {model.score(scaler.transform(X_test), y_test):.2%}")
+    else:
+        model = LogisticRegression(max_iter=1000, random_state=42, class_weight='balanced')
+        model.fit(scaler.fit_transform(X), y)
+        print("✅ Обучено на 100% данных")
 
-    model = LogisticRegression(max_iter=1000, random_state=42)
-    model.fit(X_train_sc, y_train)
-    
     print(f"{'Признак':<25} {'Ничья (0)':>12} {'П1 (1)':>12} {'П2 (2)':>12}")
     for feat in FEATURES_LIST:
-        # Собираем веса для этого признака по всем трём классам
-        # model.coef_[класс][индекс_признака]
-        weights = [model.coef_[cls][i] for cls, i in zip(range(3), [FEATURES_LIST.index(feat)]*3)]
-        # Форматируем строку: название признака + 3 веса с знаками
-        row = f"{feat:<25} {weights[0]:+12.4f} {weights[1]:+12.4f} {weights[2]:+12.4f}"
-        print(row)
-
-    print(f"✅ Точность на тесте: {model.score(X_test_sc, y_test):.2%}")
-
-    
+        idx = FEATURES_LIST.index(feat)
+        print(f"{feat:<25} {model.coef_[0][idx]:+12.4f} {model.coef_[1][idx]:+12.4f} {model.coef_[2][idx]:+12.4f}")
 
     pipe = Pipeline([('sc', StandardScaler()), ('clf', LogisticRegression(max_iter=1000))])
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     scores = cross_val_score(pipe, X, y, cv=cv, scoring='accuracy')
-
     print(f"CV: {scores.mean():.2%} ± {scores.std()*2:.2%}")
-    # Пример: 71.2% ± 4.1% → истинная точность где-то в этом диапазоне
 
     return model, scaler
 
+def save_model_artifacts(model, scaler, features_list: list, folder="models", name="wc2026"):
+    """Сохраняет обученную модель и scaler в папку."""
+    Path(folder).mkdir(parents=True, exist_ok=True)
+    joblib.dump(model, f"{folder}/{name}_model.pkl")
+    joblib.dump(scaler, f"{folder}/{name}_scaler.pkl")
+    joblib.dump(features_list, f"{folder}/{name}_features.pkl")
+    print(f"✅ Артефакты сохранены в /{folder}")
+
 
 def run_pipeline():
-    df = load_and_sort(f"{WC2026_QUALIFIERS_FILE}_clean.csv") # 1. Загрузка
-    # df = filter_qualifiers(df)
+    df = load_and_sort(f"data/{WC2026_QUALIFIERS_FILE}_clean.csv") # 1. Загрузка
+    # df = filter_qualifiers(df)       # Только матчи квалификации ЧМ
+    # df = add_form_features(df)       # Сумма очков за последние N игр
+    # df = add_market_balance(df)      # Баланс стоимости команд
+    # df = add_goals_stats(df)         # Средние забитые/пропущенные за последние N игр
+    # df = add_clean_sheets(df)        # Матчи без пропущенных голов за последние N игр
 
     df = add_target(df)              # Цель
-    # df = add_form_features(df)       # Сумма очков за последние N матчей
-    # df = add_market_balance(df)      # Баланс стоимости команд
-    df = add_neutral_flag(df)        # 1 если location != home_team, иначе 0
-    # df = add_goals_stats(df)
-    # df = add_clean_sheets(df)
-    
-    
+    # df = add_neutral_flag(df)        # 1 если location != home_team, иначе 0
+
+    print(df["result"].value_counts().sort_index())
+        
     X, y = build_xy(df)              # 4. Сборка матрицы
     
-   
-    print(f"✅ Матрица X: {X.shape}, Вектор y: {y.shape}")
+    print(f"Матрица X: {X.shape}, Вектор y: {y.shape}")
     
-    model, scaler = train_model(X, y)
+    model, scaler = train_model(X, y, test_size=0.2) # test_size=0.0 для ВСЕХ матчей
+    
+    # save_model_artifacts(model, scaler, FEATURES_LIST, name=MODEL_NAME)
+    
 
 if __name__ == "__main__": 
     run_pipeline()

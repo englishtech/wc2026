@@ -30,10 +30,12 @@ def timer_decorator(func):
     return wrapper
 
 
-ELORATINGS_URL_1 = "https://eloratings.net/2026_World_Cup_qualifying_results"
-ELORATINGS_URL_2 = "https://eloratings.net/2026_World_Cup_qualifying_playoffs_results"
+ELORATINGS_URL_QUALIFIERS = "https://eloratings.net/2026_World_Cup_qualifying_results"
+ELORATINGS_URL_FINALS = "https://eloratings.net/2026_World_Cup_fixtures"
 
 WC2026_QUALIFIERS_FILE = "wc2026_qualifiers"
+WC2026_FINALS_FILE = "wc2026_finals"
+
 BASIC_FEATURES_FILE = "wc2026_basic_features"
 
 PREV_N = 5

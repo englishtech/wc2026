@@ -1,0 +1,198 @@
+date,home_team,away_team,tournament,location,home_elo_rating,away_elo_rating,home_elo_rank,away_elo_rank
+2026-05-28,Egypt,Russia,Friendly,Egypt,1689,1776,51,27
+2026-05-28,Ireland,Qatar,Friendly,Ireland,1692,1425,49,95
+2026-05-29,Andorra,Iraq,Friendly,Spain,1077,1607,175,63
+2026-05-29,Bosnia/Herzegovina,North Macedonia,Friendly,Bosnia/Herzeg,1594,1589,66,67
+2026-05-29,Gambia,Iran,Friendly,Turkey,1423,1760,97,31
+2026-05-29,South Africa,Nicaragua,Friendly,South Africa,1524,1327,79,129
+2026-05-30,Australia,Mexico,Friendly,the United States,1783,1860,26,20
+2026-05-30,Ecuador,Saudi Arabia,Friendly,the United States,1933,1568,9,71
+2026-05-30,Scotland,Curaçao,Friendly,Scotland,1767,1436,29,90
+2026-05-30,South Korea,Trinidad and Tobago,Friendly,the United States,1752,1392,32,104
+2026-05-31,Brazil,Panama,Friendly,Brazil,1984,1737,5,36
+2026-05-31,Cape Verde,Serbia,Friendly,Portugal,1549,1769,72,28
+2026-05-31,Czechia,Kosovo,Friendly,Czechia,1726,1721,40,41
+2026-05-31,Germany,Finland,Friendly,Germany,1923,1542,11,74
+2026-05-31,Japan,Iceland,Friendly,Japan,1904,1571,13,69
+2026-05-31,Switzerland,Jordan,Friendly,Switzerland,1889,1690,16,50
+2026-05-31,United States,Senegal,Friendly,the United States,1721,1878,41,17
+2026-06-01,Austria,Tunisia,Friendly,Austria,1827,1636,23,58
+2026-06-01,Canada,Uzbekistan,Friendly,Canada,1784,1727,25,38
+2026-06-01,Colombia,Costa Rica,Friendly,Colombia,1975,1614,7,61
+2026-06-01,Norway,Sweden,Friendly,Norway,1912,1719,12,43
+2026-06-01,Turkey,North Macedonia,Friendly,Turkey,1902,1589,14,67
+2026-06-02,Croatia,Belgium,Friendly,Croatia,1930,1867,10,19
+2026-06-02,Haiti,New Zealand,Friendly,the United States,1532,1585,77,68
+2026-06-02,Morocco,Madagascar,Friendly,Morocco,1822,1382,24,106
+2026-06-02,Puerto Rico,South Africa,Friendly,Mexico,1138,1524,165,79
+2026-06-02,Wales,Ghana,Friendly,Wales,1698,1503,46,82
+2026-06-03,Denmark,DR Congo,Friendly,Belgium,1869,1655,18,54
+2026-06-03,El Salvador,South Korea,Friendly,the United States,1342,1752,121,32
+2026-06-03,Netherlands,Algeria,Friendly,the Netherlands,1961,1743,8,35
+2026-06-03,Panama,Dominican Republic,Friendly,Panama,1737,1284,36,146
+2026-06-04,Czechia,Guatemala,Friendly,the United States,1726,1515,40,80
+2026-06-04,France,Ivory Coast,Friendly,France,2081,1676,3,52
+2026-06-04,Iran,Mali,Friendly,Turkey,1760,1596,31,65
+2026-06-04,Mexico,Serbia,Friendly,Mexico,1860,1769,20,28
+2026-06-04,Spain,Iraq,Friendly,Spain,2165,1607,1,63
+2026-06-04,Sweden,Greece,Friendly,Sweden,1719,1752,43,32
+2026-06-05,Canada,Ireland,Friendly,Canada,1784,1692,25,49
+2026-06-05,Haiti,Peru,Friendly,the United States,1532,1695,77,47
+2026-06-05,Paraguay,Nicaragua,Friendly,Paraguay,1833,1327,22,129
+2026-06-05,Puerto Rico,Saudi Arabia,Friendly,the United States,1138,1568,165,71
+2026-06-06,Argentina,Honduras,Friendly,the United States,2113,1571,2,69
+2026-06-06,Australia,Switzerland,Friendly,the United States,1783,1889,26,16
+2026-06-06,Belgium,Tunisia,Friendly,Belgium,1867,1636,19,58
+2026-06-06,Bermuda,Cape Verde,Friendly,the United States,1119,1549,170,72
+2026-06-06,Bolivia,Scotland,Friendly,the United States,1645,1767,57,29
+2026-06-06,Bosnia/Herzegovina,Panama,Friendly,the United States,1594,1737,66,36
+2026-06-06,Brazil,Egypt,Friendly,the United States,1984,1689,5,51
+2026-06-06,Curaçao,Aruba,Friendly,Curaçao,1436,979,90,189
+2026-06-06,El Salvador,Qatar,Friendly,the United States,1342,1425,121,95
+2026-06-06,England,New Zealand,Friendly,the United States,2020,1585,4,68
+2026-06-06,Portugal,Chile,Friendly,Portugal,1984,1710,5,44
+2026-06-06,Turkey,Venezuela,Friendly,the United States,1902,1727,14,38
+2026-06-06,United States,Germany,Friendly,the United States,1721,1923,41,11
+2026-06-07,Colombia,Jordan,Friendly,the United States,1975,1690,7,50
+2026-06-07,Croatia,Slovenia,Friendly,Croatia,1930,1694,10,48
+2026-06-07,Ecuador,Guatemala,Friendly,the United States,1933,1515,9,80
+2026-06-07,Morocco,Norway,Friendly,the United States,1822,1912,24,12
+2026-06-08,France,Northern Ireland,Friendly,France,2081,1601,3,64
+2026-06-08,Netherlands,Uzbekistan,Friendly,the United States,1961,1727,8,38
+2026-06-08,Peru,Spain,Friendly,Mexico,1695,2165,47,1
+2026-06-08,Serbia,Uruguay,Friendly,Mexico,1769,1892,28,15
+2026-06-09,Argentina,Iceland,Friendly,the United States,2113,1571,2,69
+2026-06-09,Chile,DR Congo,Friendly,Spain,1710,1655,44,54
+2026-06-09,Iran,Puerto Rico,Friendly,the United States,1760,1138,31,165
+2026-06-09,Iraq,Venezuela,Friendly,the United States,1607,1727,63,38
+2026-06-09,Saudi Arabia,Senegal,Friendly,the United States,1568,1878,71,17
+2026-06-10,Algeria,Bolivia,Friendly,the United States,1743,1645,35,57
+2026-06-10,Costa Rica,England,Friendly,the United States,1614,2020,61,4
+2026-06-10,Portugal,Nigeria,Friendly,Portugal,1984,1752,5,32
+2026-06-11,Czechia,South Korea,World Cup,Mexico,1726,1752,40,32
+2026-06-11,Mexico,South Africa,World Cup,Mexico,1860,1524,20,79
+2026-06-12,Canada,Bosnia/Herzegovina,World Cup,Canada,1784,1594,25,66
+2026-06-12,United States,Paraguay,World Cup,the United States,1721,1833,41,22
+2026-06-13,Australia,Turkey,World Cup,Canada,1783,1902,26,14
+2026-06-13,Brazil,Morocco,World Cup,the United States,1984,1822,5,24
+2026-06-13,Haiti,Scotland,World Cup,the United States,1532,1767,77,29
+2026-06-13,Qatar,Switzerland,World Cup,the United States,1425,1889,95,16
+2026-06-14,Curaçao,Germany,World Cup,the United States,1436,1923,90,11
+2026-06-14,Ecuador,Ivory Coast,World Cup,the United States,1933,1676,9,52
+2026-06-14,Japan,Netherlands,World Cup,the United States,1904,1961,13,8
+2026-06-14,Sweden,Tunisia,World Cup,Mexico,1719,1636,43,58
+2026-06-15,Belgium,Egypt,World Cup,the United States,1867,1689,19,51
+2026-06-15,Cape Verde,Spain,World Cup,the United States,1549,2165,72,1
+2026-06-15,Iran,New Zealand,World Cup,the United States,1760,1585,31,68
+2026-06-15,Saudi Arabia,Uruguay,World Cup,the United States,1568,1892,71,15
+2026-06-16,Algeria,Argentina,World Cup,the United States,1743,2113,35,2
+2026-06-16,Austria,Jordan,World Cup,the United States,1827,1690,23,50
+2026-06-16,France,Senegal,World Cup,the United States,2081,1878,3,17
+2026-06-16,Iraq,Norway,World Cup,the United States,1607,1912,63,12
+2026-06-17,Colombia,Uzbekistan,World Cup,Mexico,1975,1727,7,38
+2026-06-17,Croatia,England,World Cup,the United States,1930,2020,10,4
+2026-06-17,DR Congo,Portugal,World Cup,the United States,1655,1984,54,5
+2026-06-17,Ghana,Panama,World Cup,Canada,1503,1737,82,36
+2026-06-18,Bosnia/Herzegovina,Switzerland,World Cup,the United States,1594,1889,66,16
+2026-06-18,Canada,Qatar,World Cup,Canada,1784,1425,25,95
+2026-06-18,Czechia,South Africa,World Cup,the United States,1726,1524,40,79
+2026-06-18,Mexico,South Korea,World Cup,Mexico,1860,1752,20,32
+2026-06-19,Brazil,Haiti,World Cup,the United States,1984,1532,5,77
+2026-06-19,Morocco,Scotland,World Cup,the United States,1822,1767,24,29
+2026-06-19,Paraguay,Turkey,World Cup,the United States,1833,1902,22,14
+2026-06-19,United States,Australia,World Cup,the United States,1721,1783,41,26
+2026-06-20,Curaçao,Ecuador,World Cup,the United States,1436,1933,90,9
+2026-06-20,Germany,Ivory Coast,World Cup,Canada,1923,1676,11,52
+2026-06-20,Japan,Tunisia,World Cup,Mexico,1904,1636,13,58
+2026-06-20,Netherlands,Sweden,World Cup,the United States,1961,1719,8,43
+2026-06-21,Belgium,Iran,World Cup,the United States,1867,1760,19,31
+2026-06-21,Cape Verde,Uruguay,World Cup,the United States,1549,1892,72,15
+2026-06-21,Egypt,New Zealand,World Cup,Canada,1689,1585,51,68
+2026-06-21,Saudi Arabia,Spain,World Cup,the United States,1568,2165,71,1
+2026-06-22,Algeria,Jordan,World Cup,the United States,1743,1690,35,50
+2026-06-22,Argentina,Austria,World Cup,the United States,2113,1827,2,23
+2026-06-22,France,Iraq,World Cup,the United States,2081,1607,3,63
+2026-06-22,Norway,Senegal,World Cup,the United States,1912,1878,12,17
+2026-06-23,Colombia,DR Congo,World Cup,Mexico,1975,1655,7,54
+2026-06-23,Croatia,Panama,World Cup,Canada,1930,1737,10,36
+2026-06-23,England,Ghana,World Cup,the United States,2020,1503,4,82
+2026-06-23,Portugal,Uzbekistan,World Cup,the United States,1984,1727,5,38
+2026-06-24,Bosnia/Herzegovina,Qatar,World Cup,the United States,1594,1425,66,95
+2026-06-24,Brazil,Scotland,World Cup,the United States,1984,1767,5,29
+2026-06-24,Canada,Switzerland,World Cup,Canada,1784,1889,25,16
+2026-06-24,Haiti,Morocco,World Cup,the United States,1532,1822,77,24
+2026-06-24,Mexico,Czechia,World Cup,Mexico,1860,1726,20,40
+2026-06-24,South Africa,South Korea,World Cup,Mexico,1524,1752,79,32
+2026-06-25,Australia,Paraguay,World Cup,the United States,1783,1833,26,22
+2026-06-25,Curaçao,Ivory Coast,World Cup,the United States,1436,1676,90,52
+2026-06-25,Ecuador,Germany,World Cup,the United States,1933,1923,9,11
+2026-06-25,Japan,Sweden,World Cup,the United States,1904,1719,13,43
+2026-06-25,Netherlands,Tunisia,World Cup,the United States,1961,1636,8,58
+2026-06-25,United States,Turkey,World Cup,the United States,1721,1902,41,14
+2026-06-26,Belgium,New Zealand,World Cup,Canada,1867,1585,19,68
+2026-06-26,Cape Verde,Saudi Arabia,World Cup,the United States,1549,1568,72,71
+2026-06-26,Egypt,Iran,World Cup,the United States,1689,1760,51,31
+2026-06-26,France,Norway,World Cup,the United States,2081,1912,3,12
+2026-06-26,Iraq,Senegal,World Cup,Canada,1607,1878,63,17
+2026-06-26,Spain,Uruguay,World Cup,Mexico,2165,1892,1,15
+2026-06-27,Algeria,Austria,World Cup,the United States,1743,1827,35,23
+2026-06-27,Argentina,Jordan,World Cup,the United States,2113,1690,2,50
+2026-06-27,Colombia,Portugal,World Cup,the United States,1975,1984,7,5
+2026-06-27,Croatia,Ghana,World Cup,the United States,1930,1503,10,82
+2026-06-27,DR Congo,Uzbekistan,World Cup,the United States,1655,1727,54,38
+2026-06-27,England,Panama,World Cup,the United States,2020,1737,4,36
+2026-09-23,Iraq,Oman,Gulf Cup,Saudi Arabia,1607,1490,63,84
+2026-09-23,Saudi Arabia,Kuwait,Gulf Cup,Saudi Arabia,1568,1328,71,128
+2026-09-24,Netherlands,Germany,European League A,the Netherlands,1961,1923,8,11
+2026-09-24,Norway,Denmark,European League A,Norway,1912,1869,12,18
+2026-09-24,Portugal,Wales,European League A,Portugal,1984,1698,5,46
+2026-09-24,Austria,Israel,European League B,Austria,1827,1634,23,59
+2026-09-24,Bahrain,Qatar,Gulf Cup,Saudi Arabia,1418,1425,100,95
+2026-09-25,Italy,Belgium,European League A,Italy,1856,1867,21,19
+2026-09-25,Turkey,France,European League A,Turkey,1902,2081,14,3
+2026-09-25,Poland,Bosnia/Herzegovina,European League B,Poland,1729,1594,37,66
+2026-09-25,Sweden,Romania,European League B,Sweden,1719,1627,43,60
+2026-09-26,Czechia,Croatia,European League A,Czechia,1726,1930,40,10
+2026-09-26,England,Spain,European League A,England,2020,2165,4,1
+2026-09-26,North Macedonia,Switzerland,European League B,North Macedonia,1589,1889,67,16
+2026-09-26,Slovenia,Scotland,European League B,Slovenia,1694,1767,48,29
+2026-09-26,Iraq,Kuwait,Gulf Cup,Saudi Arabia,1607,1328,63,128
+2026-09-26,Saudi Arabia,Oman,Gulf Cup,Saudi Arabia,1568,1490,71,84
+2026-09-27,Germany,Greece,European League A,Germany,1923,1752,11,32
+2026-09-27,Norway,Portugal,European League A,Norway,1912,1984,12,5
+2026-09-27,Serbia,Netherlands,European League A,Serbia,1769,1961,28,8
+2026-09-27,Austria,Kosovo,European League B,Austria,1827,1721,23,41
+2026-09-27,Qatar,Yemen,Gulf Cup,Saudi Arabia,1425,1151,95,162
+2026-09-28,Belgium,France,European League A,Belgium,1867,2081,19,3
+2026-09-28,Turkey,Italy,European League A,Turkey,1902,1856,14,21
+2026-09-28,Romania,Bosnia/Herzegovina,European League B,Romania,1627,1594,60,66
+2026-09-28,Sweden,Poland,European League B,Sweden,1719,1729,43,37
+2026-09-29,Czechia,England,European League A,Czechia,1726,2020,40,4
+2026-09-29,Spain,Croatia,European League A,Spain,2165,1930,1,10
+2026-09-29,Scotland,Switzerland,European League B,Scotland,1767,1889,29,16
+2026-09-29,Saudi Arabia,Iraq,Gulf Cup,Saudi Arabia,1568,1607,71,63
+2026-09-30,Qatar,UAE,Gulf Cup,Saudi Arabia,1425,1540,95,75
+2026-10-01,Denmark,Portugal,European League A,Denmark,1869,1984,18,5
+2026-10-01,Germany,Serbia,European League A,Germany,1923,1769,11,28
+2026-10-01,Greece,Netherlands,European League A,Greece,1752,1961,32,8
+2026-10-01,Wales,Norway,European League A,Wales,1698,1912,46,12
+2026-10-01,Ireland,Austria,European League B,Ireland,1692,1827,49,23
+2026-10-02,Belgium,Turkey,European League A,Belgium,1867,1902,19,14
+2026-10-02,France,Italy,European League A,France,2081,1856,3,21
+2026-10-02,Bosnia/Herzegovina,Sweden,European League B,Bosnia/Herzeg,1594,1719,66,43
+2026-10-03,Croatia,England,European League A,Croatia,1930,2020,10,4
+2026-10-03,Spain,Czechia,European League A,Spain,2165,1726,1,40
+2026-10-03,North Macedonia,Scotland,European League B,North Macedonia,1589,1767,67,29
+2026-10-03,Switzerland,Slovenia,European League B,Switzerland,1889,1694,16,48
+2026-10-04,Greece,Germany,European League A,Greece,1752,1923,32,11
+2026-10-04,Netherlands,Serbia,European League A,the Netherlands,1961,1769,8,28
+2026-10-04,Portugal,Norway,European League A,Portugal,1984,1912,5,12
+2026-10-04,Kosovo,Austria,European League B,Kosovo,1721,1827,41,23
+2026-10-05,France,Belgium,European League A,France,2081,1867,3,19
+2026-10-05,Italy,Turkey,European League A,Italy,1856,1902,21,14
+2026-10-05,Bosnia/Herzegovina,Poland,European League B,Bosnia/Herzeg,1594,1729,66,37
+2026-10-05,Romania,Sweden,European League B,Romania,1627,1719,60,43
+2026-10-06,Croatia,Spain,European League A,Croatia,1930,2165,10,1
+2026-10-06,England,Czechia,European League A,England,2020,1726,4,40
+2026-10-06,Scotland,Slovenia,European League B,Scotland,1767,1694,29,48
+2026-10-06,Switzerland,North Macedonia,European League B,Switzerland,1889,1589,16,67

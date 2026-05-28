@@ -1,0 +1,73 @@
+date,home_team,away_team,tournament,location,home_elo_rating,away_elo_rating,home_elo_rank,away_elo_rank
+2026-06-11,Czechia,South Korea,World Cup,Mexico,1726,1752,40,32
+2026-06-11,Mexico,South Africa,World Cup,Mexico,1860,1524,20,79
+2026-06-12,United States,Paraguay,World Cup,the United States,1721,1833,41,22
+2026-06-12,Canada,Bosnia/Herzegovina,World Cup,Canada,1784,1594,25,66
+2026-06-13,Australia,Turkey,World Cup,Canada,1783,1902,26,14
+2026-06-13,Brazil,Morocco,World Cup,the United States,1984,1822,5,24
+2026-06-13,Haiti,Scotland,World Cup,the United States,1532,1767,77,29
+2026-06-13,Qatar,Switzerland,World Cup,the United States,1425,1889,95,16
+2026-06-14,Curaçao,Germany,World Cup,the United States,1436,1923,90,11
+2026-06-14,Ecuador,Ivory Coast,World Cup,the United States,1933,1676,9,52
+2026-06-14,Japan,Netherlands,World Cup,the United States,1904,1961,13,8
+2026-06-14,Sweden,Tunisia,World Cup,Mexico,1719,1636,43,58
+2026-06-15,Saudi Arabia,Uruguay,World Cup,the United States,1568,1892,71,15
+2026-06-15,Belgium,Egypt,World Cup,the United States,1867,1689,19,51
+2026-06-15,Cape Verde,Spain,World Cup,the United States,1549,2165,72,1
+2026-06-15,Iran,New Zealand,World Cup,the United States,1760,1585,31,68
+2026-06-16,Iraq,Norway,World Cup,the United States,1607,1912,63,12
+2026-06-16,France,Senegal,World Cup,the United States,2081,1878,3,17
+2026-06-16,Algeria,Argentina,World Cup,the United States,1743,2113,35,2
+2026-06-16,Austria,Jordan,World Cup,the United States,1827,1690,23,50
+2026-06-17,Colombia,Uzbekistan,World Cup,Mexico,1975,1727,7,38
+2026-06-17,Croatia,England,World Cup,the United States,1930,2020,10,4
+2026-06-17,DR Congo,Portugal,World Cup,the United States,1655,1984,54,5
+2026-06-17,Ghana,Panama,World Cup,Canada,1503,1737,82,36
+2026-06-18,Czechia,South Africa,World Cup,the United States,1726,1524,40,79
+2026-06-18,Bosnia/Herzegovina,Switzerland,World Cup,the United States,1594,1889,66,16
+2026-06-18,Canada,Qatar,World Cup,Canada,1784,1425,25,95
+2026-06-18,Mexico,South Korea,World Cup,Mexico,1860,1752,20,32
+2026-06-19,United States,Australia,World Cup,the United States,1721,1783,41,26
+2026-06-19,Paraguay,Turkey,World Cup,the United States,1833,1902,22,14
+2026-06-19,Brazil,Haiti,World Cup,the United States,1984,1532,5,77
+2026-06-19,Morocco,Scotland,World Cup,the United States,1822,1767,24,29
+2026-06-20,Curaçao,Ecuador,World Cup,the United States,1436,1933,90,9
+2026-06-20,Germany,Ivory Coast,World Cup,Canada,1923,1676,11,52
+2026-06-20,Japan,Tunisia,World Cup,Mexico,1904,1636,13,58
+2026-06-20,Netherlands,Sweden,World Cup,the United States,1961,1719,8,43
+2026-06-21,Saudi Arabia,Spain,World Cup,the United States,1568,2165,71,1
+2026-06-21,Belgium,Iran,World Cup,the United States,1867,1760,19,31
+2026-06-21,Cape Verde,Uruguay,World Cup,the United States,1549,1892,72,15
+2026-06-21,Egypt,New Zealand,World Cup,Canada,1689,1585,51,68
+2026-06-22,Norway,Senegal,World Cup,the United States,1912,1878,12,17
+2026-06-22,France,Iraq,World Cup,the United States,2081,1607,3,63
+2026-06-22,Algeria,Jordan,World Cup,the United States,1743,1690,35,50
+2026-06-22,Argentina,Austria,World Cup,the United States,2113,1827,2,23
+2026-06-23,England,Ghana,World Cup,the United States,2020,1503,4,82
+2026-06-23,Colombia,DR Congo,World Cup,Mexico,1975,1655,7,54
+2026-06-23,Croatia,Panama,World Cup,Canada,1930,1737,10,36
+2026-06-23,Portugal,Uzbekistan,World Cup,the United States,1984,1727,5,38
+2026-06-24,South Africa,South Korea,World Cup,Mexico,1524,1752,79,32
+2026-06-24,Haiti,Morocco,World Cup,the United States,1532,1822,77,24
+2026-06-24,Mexico,Czechia,World Cup,Mexico,1860,1726,20,40
+2026-06-24,Brazil,Scotland,World Cup,the United States,1984,1767,5,29
+2026-06-24,Bosnia/Herzegovina,Qatar,World Cup,the United States,1594,1425,66,95
+2026-06-24,Canada,Switzerland,World Cup,Canada,1784,1889,25,16
+2026-06-25,Australia,Paraguay,World Cup,the United States,1783,1833,26,22
+2026-06-25,Curaçao,Ivory Coast,World Cup,the United States,1436,1676,90,52
+2026-06-25,Ecuador,Germany,World Cup,the United States,1933,1923,9,11
+2026-06-25,Japan,Sweden,World Cup,the United States,1904,1719,13,43
+2026-06-25,Netherlands,Tunisia,World Cup,the United States,1961,1636,8,58
+2026-06-25,United States,Turkey,World Cup,the United States,1721,1902,41,14
+2026-06-26,Spain,Uruguay,World Cup,Mexico,2165,1892,1,15
+2026-06-26,Iraq,Senegal,World Cup,Canada,1607,1878,63,17
+2026-06-26,France,Norway,World Cup,the United States,2081,1912,3,12
+2026-06-26,Egypt,Iran,World Cup,the United States,1689,1760,51,31
+2026-06-26,Belgium,New Zealand,World Cup,Canada,1867,1585,19,68
+2026-06-26,Cape Verde,Saudi Arabia,World Cup,the United States,1549,1568,72,71
+2026-06-27,Algeria,Austria,World Cup,the United States,1743,1827,35,23
+2026-06-27,Argentina,Jordan,World Cup,the United States,2113,1690,2,50
+2026-06-27,Colombia,Portugal,World Cup,the United States,1975,1984,7,5
+2026-06-27,Croatia,Ghana,World Cup,the United States,1930,1503,10,82
+2026-06-27,DR Congo,Uzbekistan,World Cup,the United States,1655,1727,54,38
+2026-06-27,England,Panama,World Cup,the United States,2020,1737,4,36
