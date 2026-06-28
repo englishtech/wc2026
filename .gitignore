@@ -3,3 +3,4 @@ learning.py
 *.pyc
 .venv/
 wc2026/__pycache__/
+models/

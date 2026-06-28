@@ -32,4 +32,4 @@ def predict(csv_path: str, models_dir: str = "models"):
         print(f"{date_fmt:<12} | {str(row['home_team'])[:18]:>18} - {str(row['away_team'])[:18]:<18} | {str(res)[:24]:<24} | {prob}")
 
 
-predict("wc2026_finals.csv")
+predict("wc2026_playoffs_clean.csv")
