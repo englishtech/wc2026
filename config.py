@@ -37,6 +37,7 @@ ELORATINGS_URL_PLAYOFFS = "https://eloratings.net/2026_World_Cup_fixtures"
 WC2026_QUALIFIERS_FILE = "wc2026_qualifiers"
 WC2026_FINALS_FILE = "wc2026_finals"
 WC2026_PLAYOFFS_FILE = "wc2026_playoffs"
+WC2026_PLAYOFFS_EIGTHS_FILE = "wc2026_playoffs_eigths"
 
 BASIC_FEATURES_FILE = "wc2026_basic_features"
 
