@@ -1,0 +1,85 @@
+date,home_team,away_team,tournament,location,home_elo_rating,away_elo_rating,home_elo_rank,away_elo_rank
+2026-07-09,France,Morocco,World Cup,the United States,2143,1921,3,12
+2026-07-10,Belgium,Spain,World Cup,the United States,1961,2177,10,1
+2026-07-11,Argentina,Switzerland,World Cup,the United States,2156,1949,2,11
+2026-07-11,England,Norway,World Cup,the United States,2076,1972,4,8
+2026-09-23,Iraq,Oman,Gulf Cup,Saudi Arabia,1561,1479,72,83
+2026-09-23,Saudi Arabia,Kuwait,Gulf Cup,Saudi Arabia,1596,1332,65,127
+2026-09-24,Netherlands,Germany,European League A,the Netherlands,1971,1907,9,14
+2026-09-24,Norway,Denmark,European League A,Norway,1972,1869,8,18
+2026-09-24,Portugal,Wales,European League A,Portugal,1995,1682,6,48
+2026-09-24,Austria,Israel,European League B,Austria,1821,1647,22,54
+2026-09-24,Bahrain,Qatar,Gulf Cup,Saudi Arabia,1414,1411,98,99
+2026-09-25,Italy,Belgium,European League A,Italy,1869,1961,18,10
+2026-09-25,Turkey,France,European League A,Turkey,1852,2143,20,3
+2026-09-25,Poland,Bosnia/Herzegovina,European League B,Poland,1710,1605,43,63
+2026-09-25,Sweden,Romania,European League B,Sweden,1731,1639,37,55
+2026-09-25,Australia,Brazil,Friendly,Australia,1795,1993,25,7
+2026-09-26,Czechia,Croatia,European League A,Czechia,1680,1881,50,16
+2026-09-26,England,Spain,European League A,England,2076,2177,4,1
+2026-09-26,North Macedonia,Switzerland,European League B,North Macedonia,1589,1949,66,11
+2026-09-26,Slovenia,Scotland,European League B,Slovenia,1682,1745,48,32
+2026-09-26,Iraq,Kuwait,Gulf Cup,Saudi Arabia,1561,1332,72,127
+2026-09-26,Saudi Arabia,Oman,Gulf Cup,Saudi Arabia,1596,1479,65,83
+2026-09-27,Germany,Greece,European League A,Germany,1907,1744,14,33
+2026-09-27,Norway,Portugal,European League A,Norway,1972,1995,8,6
+2026-09-27,Serbia,Netherlands,European League A,Serbia,1734,1971,35,9
+2026-09-27,Austria,Kosovo,European League B,Austria,1821,1714,22,42
+2026-09-27,Qatar,Yemen,Gulf Cup,Saudi Arabia,1411,1195,99,160
+2026-09-28,Belgium,France,European League A,Belgium,1961,2143,10,3
+2026-09-28,Turkey,Italy,European League A,Turkey,1852,1869,20,18
+2026-09-28,Romania,Bosnia/Herzegovina,European League B,Romania,1639,1605,55,63
+2026-09-28,Sweden,Poland,European League B,Sweden,1731,1710,37,43
+2026-09-29,Czechia,England,European League A,Czechia,1680,2076,50,4
+2026-09-29,Spain,Croatia,European League A,Spain,2177,1881,1,16
+2026-09-29,Scotland,Switzerland,European League B,Scotland,1745,1949,32,11
+2026-09-29,Saudi Arabia,Iraq,Gulf Cup,Saudi Arabia,1596,1561,65,72
+2026-09-29,Australia,Brazil,Friendly,Australia,1795,1993,25,7
+2026-09-30,Qatar,UAE,Gulf Cup,Saudi Arabia,1411,1540,99,75
+2026-10-01,Denmark,Portugal,European League A,Denmark,1869,1995,18,6
+2026-10-01,Germany,Serbia,European League A,Germany,1907,1734,14,35
+2026-10-01,Greece,Netherlands,European League A,Greece,1744,1971,33,9
+2026-10-01,Wales,Norway,European League A,Wales,1682,1972,48,8
+2026-10-01,Ireland,Austria,European League B,Ireland,1699,1821,47,22
+2026-10-02,Belgium,Turkey,European League A,Belgium,1961,1852,10,20
+2026-10-02,France,Italy,European League A,France,2143,1869,3,18
+2026-10-02,Bosnia/Herzegovina,Sweden,European League B,Bosnia/Herzeg,1605,1731,63,37
+2026-10-03,Croatia,England,European League A,Croatia,1881,2076,16,4
+2026-10-03,Spain,Czechia,European League A,Spain,2177,1680,1,50
+2026-10-03,North Macedonia,Scotland,European League B,North Macedonia,1589,1745,66,32
+2026-10-03,Switzerland,Slovenia,European League B,Switzerland,1949,1682,11,48
+2026-10-04,Greece,Germany,European League A,Greece,1744,1907,33,14
+2026-10-04,Netherlands,Serbia,European League A,the Netherlands,1971,1734,9,35
+2026-10-04,Portugal,Norway,European League A,Portugal,1995,1972,6,8
+2026-10-04,Kosovo,Austria,European League B,Kosovo,1714,1821,42,22
+2026-10-05,France,Belgium,European League A,France,2143,1961,3,10
+2026-10-05,Italy,Turkey,European League A,Italy,1869,1852,18,20
+2026-10-05,Bosnia/Herzegovina,Poland,European League B,Bosnia/Herzeg,1605,1710,63,43
+2026-10-05,Romania,Sweden,European League B,Romania,1639,1731,55,37
+2026-10-06,Croatia,Spain,European League A,Croatia,1881,2177,16,1
+2026-10-06,England,Czechia,European League A,England,2076,1680,4,50
+2026-10-06,Scotland,Slovenia,European League B,Scotland,1745,1682,32,48
+2026-10-06,Switzerland,North Macedonia,European League B,Switzerland,1949,1589,11,66
+2026-11-12,Czechia,Spain,European League A,Czechia,1680,2177,50,1
+2026-11-12,England,Croatia,European League A,England,2076,1881,4,16
+2026-11-12,Italy,France,European League A,Italy,1869,2143,18,3
+2026-11-12,Turkey,Belgium,European League A,Turkey,1852,1961,20,10
+2026-11-13,Netherlands,Greece,European League A,the Netherlands,1971,1744,9,33
+2026-11-13,Serbia,Germany,European League A,Serbia,1734,1907,35,14
+2026-11-13,Scotland,North Macedonia,European League B,Scotland,1745,1589,32,66
+2026-11-13,Slovenia,Switzerland,European League B,Slovenia,1682,1949,48,11
+2026-11-14,Norway,Wales,European League A,Norway,1972,1682,8,48
+2026-11-14,Portugal,Denmark,European League A,Portugal,1995,1869,6,18
+2026-11-14,Austria,Ireland,European League B,Austria,1821,1699,22,47
+2026-11-14,Sweden,Bosnia/Herzegovina,European League B,Sweden,1731,1605,37,63
+2026-11-15,Belgium,Italy,European League A,Belgium,1961,1869,10,18
+2026-11-15,Croatia,Czechia,European League A,Croatia,1881,1680,16,50
+2026-11-15,France,Turkey,European League A,France,2143,1852,3,20
+2026-11-15,Spain,England,European League A,Spain,2177,2076,1,4
+2026-11-16,Germany,Netherlands,European League A,Germany,1907,1971,14,9
+2026-11-16,Switzerland,Scotland,European League B,Switzerland,1949,1745,11,32
+2026-11-17,Denmark,Norway,European League A,Denmark,1869,1972,18,8
+2026-11-17,Wales,Portugal,European League A,Wales,1682,1995,48,6
+2026-11-17,Austria,Israel,European League B,,1821,1647,22,54
+2026-11-17,Bosnia/Herzegovina,Romania,European League B,Bosnia/Herzeg,1605,1639,63,55
+2026-11-17,Poland,Sweden,European League B,Poland,1710,1731,43,37
