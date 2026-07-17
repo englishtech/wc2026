@@ -10,8 +10,7 @@ from config import (
     logger, ELORATINGS_URL_QUALIFIERS, ELORATINGS_URL_FINALS, 
     WC2026_QUALIFIERS_FILE, WC2026_FINALS_FILE,
     ELORATINGS_URL_PLAYOFFS, WC2026_PLAYOFFS_FILE,
-    WC2026_SEMIFINALS_FILE, WC2026_SEMIFINALS_FILE,
-    WC2026_SEMIFINALS_FILE
+    WC2026_FINAL_FILE, WC2026_FINAL_FILE
 )
 
 chrome_options = webdriver.ChromeOptions()
@@ -114,28 +113,28 @@ def parse_finals_eloratings(url: str):
 
         df = pd.DataFrame(rows, columns=["date","home_team","away_team",
                                         "tournament", "location", "home_elo_rating","away_elo_rating","home_elo_rank","away_elo_rank"])
-        df.to_csv(f"{WC2026_SEMIFINALS_FILE}.csv", index=False, encoding="utf-8")
+        df.to_csv(f"{WC2026_FINAL_FILE}.csv", index=False, encoding="utf-8")
         print(f"✅ {len(df)} матчей сохранено")
         end_time = time.time()
         total_time = end_time - start_time
         print(f"\n[+] Общее время выполнения: {total_time:.2f} секунд")
 
 def clean_eloratings():
-    df = pd.read_csv(f"{WC2026_SEMIFINALS_FILE}.csv")
+    df = pd.read_csv(f"{WC2026_FINAL_FILE}.csv")
     df["date"] = pd.to_datetime(df["date"])
     df = df.sort_values("date").reset_index(drop=True)
     df = df.drop_duplicates(subset=["date","home_team","away_team"])
     df = df[~df["tournament"].str.contains("Friendly", na=False)]
-    df.to_csv(f"data/{WC2026_SEMIFINALS_FILE}_clean.csv", index=False, encoding="utf-8")
+    df.to_csv(f"data/{WC2026_FINAL_FILE}_clean.csv", index=False, encoding="utf-8")
     print(f"Готово: {len(df)} матчей")  # Выводим итог
 
 def clean_finals_eloratings():
-    df = pd.read_csv(f"{WC2026_SEMIFINALS_FILE}.csv")
+    df = pd.read_csv(f"{WC2026_FINAL_FILE}.csv")
     df["date"] = pd.to_datetime(df["date"])
     df = df.sort_values("date").reset_index(drop=True)
     df = df.drop_duplicates(subset=["date","home_team","away_team"])
     df = df[~df["tournament"].str.contains("Friendly", na=False)]
-    df.to_csv(f"data/{WC2026_SEMIFINALS_FILE}_clean.csv", index=False, encoding="utf-8")
+    df.to_csv(f"data/{WC2026_FINAL_FILE}_clean.csv", index=False, encoding="utf-8")
     print(f"Готово: {len(df)} матчей")  # Выводим итог
 
 

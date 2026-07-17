@@ -40,6 +40,7 @@ WC2026_PLAYOFFS_FILE = "wc2026_playoffs"
 WC2026_PLAYOFFS_EIGTHS_FILE = "wc2026_playoffs_eigths"
 WC2026_PLAYOFFS_FOURTHS_FILE = "wc2026_playoffs_fourths"
 WC2026_SEMIFINALS_FILE = "wc2026_semifinals"
+WC2026_FINAL_FILE = "wc2026_final"
 
 BASIC_FEATURES_FILE = "wc2026_basic_features"
 
